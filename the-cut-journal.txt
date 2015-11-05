@@ -47,7 +47,67 @@
 ================================================================================
 
 ----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Created a site crawler that will be used for data mining of historic statistics
 
 ----- PLAN -----
+- Seems like plans will have to take a turn. Must find a source of historic statistics
+  in order to data mine from previous years. This will allow me to test on 
+  previous years and previous weeks of those years so that there are  actual
+  values for predicted stats. In other words, for example, I can use stats from 
+  2014 weeks 1-15 to predict the 2014 week 16 outcome and compare this result
+  to the actual results of 2014 week 16. 
+- Will create specific data for 2014
 
 ----- ISSUES AND CONCERNS -----
+- Site crawler is written in php, but since it is functionally external this 
+  is okay for now. Will look to write in python.
+- The unpredictability of competitive sports has always been in the back of my
+  mind. I feel like sometimes no matter how good or professional any kind of
+  statistical predictions are made, there is always a great chance of deviation
+  away from outcomes. But then again, this is the risk of prediction in general.
+- There can be so many other variables that can change predictions and outcomes
+  that are not shown.
+
+================================================================================
+****** Tuesday, October 27th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Found a website that has all of FanDuel's historic statistics. RotoGuru.net.
+- Began creating and testing data frames in pandas for FD statistics.
+- Data mined all FD statistics from 2011 to 2015 week 6
+
+----- PLAN -----
+- Began testing with actual statistics.
+- Seems like future plans are going to change, the further I am 
+- 
+
+----- ISSUES AND CONCERNS -----
+- Seems like future plans are going to change, the further I go into testing
+  the more future problems arise.
+
+================================================================================
+****** Wednesday, November 5th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Created data frames for single players. These data frames include a spreadsheet
+  of all weeks player took part in with columns "week,home/away,Oppt,FD Points, 
+  FD Salary". 
+- As mentioned before, future problems are coming into light very fast. This 
+  is both an issue for preexisting plans and an accomplishment in the way to move 
+  forward. New plans below. 
+
+----- PLAN -----
+- 1. Be able to predict single player stats.
+  2. Create code automated program to initiate and populate a player data frame.
+  3. create multiple (all) data frames for one complete position (QB). This
+     should be automated, but brute force will work.
+  4. Create a program where week by week player with most projected pts is
+     chosen out of all others in that position (QB).
+  5. Continue to do steps 1-4 for all positions.
+  6. Must take into account salary cap
+
+----- ISSUES AND CONCERNS -----
+- It seems the most difficult thing is creating dataframes, or moreover HOW to 
+  create these data frames and manipulate the information inside of it.
