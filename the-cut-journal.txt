@@ -87,7 +87,7 @@
   the more future problems arise.
 
 ================================================================================
-****** Wednesday, November 5th, 2015 *********************************************
+****** Wednesday, November 4th, 2015 *******************************************
 ================================================================================
 
 ----- ACTIVITIES AND ACCOMPLISHMENTS -----
@@ -111,3 +111,26 @@
 ----- ISSUES AND CONCERNS -----
 - It seems the most difficult thing is creating dataframes, or moreover HOW to 
   create these data frames and manipulate the information inside of it.
+
+================================================================================
+****** Wednesday, November 11th, 2015 ******************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Linear regression seems best fit for statistical prediction. I was able to 
+  implement the use of linear regression through pandas, matplotlib, and
+  seaborn. Seaborn is a very useful tool for visuals and makes graphs very
+  readable to the user. 
+
+----- PLAN -----
+- Merge all data from one year into a single data frame. This can be done
+  because there is already a column for weeks. This will be useful in order to
+  visualize tendencies of all statistics in given areas for an entire season
+  opposed to a week.
+- Use findings from linear regression to weigh what factors influence players
+  stats througout the weeks/ season.
+
+----- ISSUES AND CONCERNS -----
+- Before linear regression, much time was spent wasted implementing the 
+  "K nearest neighbors" algorithm which does not fit for this project, but as
+  mentioned before, linear regression seems best fit.
