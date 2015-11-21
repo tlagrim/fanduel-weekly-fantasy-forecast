@@ -5,7 +5,8 @@
 ----- ACTIVITIES AND ACCOMPLISHMENTS -----
 
 - Had further practice with hands-on data analysis.
-- Went through 2 hours of a 3 hour in depth online workshop from PyCon 2015. Will finish the workshop next session.
+- Went through 2 hours of a 3 hour in depth online workshop from PyCon 2015. 
+  Will finish the workshop next session.
 - Practice with:
     ipython==3.1.0
     matplotlib==1.4.3
@@ -134,3 +135,36 @@
 - Before linear regression, much time was spent wasted implementing the 
   "K nearest neighbors" algorithm which does not fit for this project, but as
   mentioned before, linear regression seems best fit.
+
+================================================================================
+****** Wednesday, November 11th, 2015 ******************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Finished Milestone 1.0 and feedback
+
+----- PLAN -----
+- prepare poster planning and sequence diagram for final exam. 
+- For statistics:
+      - Look at winners of the week & see points per doller invested in one pos
+        (QB,TE)
+      - Research what real players (maybe players who were projected to have an
+        outstanding career but didn't) have experienced and what they say caused
+        the unforseen outlook. Maybe they have some truth to say about what
+	could have been done by the coaches to make better decisions. 
+          - on base vs batting average example
+      - Gotta research and see if I can find some kind of consistent factor in 
+        players doing well or not well. Test throughout individual players. 
+   	  - Next step after this is evaluating a whole team.
+          - Take advantage of something people don't see that can affect a 
+            player
+      - Start researching with a Tight End. Maybe QB are overevaluated, over 
+        researched by analysts and experts. 
+- Try and see if an exponential plot can work instead of fitted regression.
+- Continuously crank out ideas. If doeasn't work, then try next idea
+- Use and find the TOOLS I need to give me the opportunity to find the answers.
+
+----- ISSUES AND CONCERNS -----
+- Not finding that "factor"
+
+
