@@ -1,0 +1,206 @@
+================================================================================
+****** Monday, October 12th, 2015 **********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+
+- Had further practice with hands-on data analysis.
+- Went through 2 hours of a 3 hour in depth online workshop from PyCon 2015. 
+  Will finish the workshop next session.
+- Practice with:
+    ipython==3.1.0
+    matplotlib==1.4.3
+    numpy==1.9.2
+    pandas==0.16.0
+    scikit-learn==0.16.0
+    scipy==0.15.1
+    Installed all req. from repof
+
+----- PLAN -----
+
+- Will finish the PyCon 2015 workshop next session.
+
+----- ISSUES AND CONCERNS -----
+
+- Concern of creating an algorithm that will not meet my expectations in the end. 
+
+
+================================================================================
+****** Tuesday, October 13th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Recorded last weeks (week 5) statistics and notes
+- Finished PyCon 2015 workshop
+
+----- PLAN -----
+- Need to figure out more about creating a more mathematically accurate algorithm
+
+================================================================================
+****** Saturday, October 17th, 2015 ********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Further practice with SciKitLearn and MatPlotLib through iPython Notebook.
+
+================================================================================
+****** Tuesday, October 20th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Created a site crawler that will be used for data mining of historic statistics
+
+----- PLAN -----
+- Seems like plans will have to take a turn. Must find a source of historic statistics
+  in order to data mine from previous years. This will allow me to test on 
+  previous years and previous weeks of those years so that there are  actual
+  values for predicted stats. In other words, for example, I can use stats from 
+  2014 weeks 1-15 to predict the 2014 week 16 outcome and compare this result
+  to the actual results of 2014 week 16. 
+- Will create specific data for 2014
+
+----- ISSUES AND CONCERNS -----
+- Site crawler is written in php, but since it is functionally external this 
+  is okay for now. Will look to write in python.
+- The unpredictability of competitive sports has always been in the back of my
+  mind. I feel like sometimes no matter how good or professional any kind of
+  statistical predictions are made, there is always a great chance of deviation
+  away from outcomes. But then again, this is the risk of prediction in general.
+- There can be so many other variables that can change predictions and outcomes
+  that are not shown.
+
+================================================================================
+****** Tuesday, October 27th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Found a website that has all of FanDuel's historic statistics. RotoGuru.net.
+- Began creating and testing data frames in pandas for FD statistics.
+- Data mined all FD statistics from 2011 to 2015 week 6
+
+----- PLAN -----
+- Began testing with actual statistics.
+- Seems like future plans are going to change, the further I am 
+- 
+
+----- ISSUES AND CONCERNS -----
+- Seems like future plans are going to change, the further I go into testing
+  the more future problems arise.
+
+================================================================================
+****** Wednesday, November 4th, 2015 *******************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Created data frames for single players. These data frames include a spreadsheet
+  of all weeks player took part in with columns "week,home/away,Oppt,FD Points, 
+  FD Salary". 
+- As mentioned before, future problems are coming into light very fast. This 
+  is both an issue for preexisting plans and an accomplishment in the way to move 
+  forward. New plans below. 
+
+----- PLAN -----
+- 1. Be able to predict single player stats.
+  2. Create code automated program to initiate and populate a player data frame.
+  3. create multiple (all) data frames for one complete position (QB). This
+     should be automated, but brute force will work.
+  4. Create a program where week by week player with most projected pts is
+     chosen out of all others in that position (QB).
+  5. Continue to do steps 1-4 for all positions.
+  6. Must take into account salary cap
+
+----- ISSUES AND CONCERNS -----
+- It seems the most difficult thing is creating dataframes, or moreover HOW to 
+  create these data frames and manipulate the information inside of it.
+
+================================================================================
+****** Wednesday, November 11th, 2015 ******************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Linear regression seems best fit for statistical prediction. I was able to 
+  implement the use of linear regression through pandas, matplotlib, and
+  seaborn. Seaborn is a very useful tool for visuals and makes graphs very
+  readable to the user. 
+
+----- PLAN -----
+- Merge all data from one year into a single data frame. This can be done
+  because there is already a column for weeks. This will be useful in order to
+  visualize tendencies of all statistics in given areas for an entire season
+  opposed to a week.
+- Use findings from linear regression to weigh what factors influence players
+  stats througout the weeks/ season.
+
+----- ISSUES AND CONCERNS -----
+- Before linear regression, much time was spent wasted implementing the 
+  "K nearest neighbors" algorithm which does not fit for this project, but as
+  mentioned before, linear regression seems best fit.
+
+================================================================================
+****** Wednesday, November 11th, 2015 ******************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- Finished Milestone 1.0 and feedback
+
+----- PLAN -----
+- prepare poster planning and sequence diagram for final exam. 
+- For statistics:
+      - Look at winners of the week & see points per doller invested in one pos
+        (QB,TE)
+      - Research what real players (maybe players who were projected to have an
+        outstanding career but didn't) have experienced and what they say caused
+        the unforseen outlook. Maybe they have some truth to say about what
+	could have been done by the coaches to make better decisions. 
+          - on base vs batting average example
+      - Gotta research and see if I can find some kind of consistent factor in 
+        players doing well or not well. Test throughout individual players. 
+   	  - Next step after this is evaluating a whole team.
+          - Take advantage of something people don't see that can affect a 
+            player
+      - Start researching with a Tight End. Maybe QB are overevaluated, over 
+        researched by analysts and experts. 
+- Try and see if an exponential plot can work instead of fitted regression.
+- Continuously crank out ideas. If doeasn't work, then try next idea
+- Use and find the TOOLS I need to give me the opportunity to find the answers.
+
+----- ISSUES AND CONCERNS -----
+- Not finding that "factor"
+
+
+================================================================================
+****** Friday, November 27th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- New repository of statistics that consists of play-by-play data from 2013-2015
+- New repository of statistics that consists of All NFL Weather from 1960 to 
+  2013, all NFL player statistics, and 1999 to 2015 Combined data
+
+----- PLAN -----
+- Manipulate the data repositories above to find potential statistical
+  influences.
+  - check if weather inluences wins on home or away teams
+
+
+----- ISSUES AND CONCERNS -----
+- the pbp-2014.csv does not contain individual player's stats. This is a problem
+  because plays are not correlated with players. 
+
+
+================================================================================
+****** Sunday, November 29th, 2015 *********************************************
+================================================================================
+
+----- ACTIVITIES AND ACCOMPLISHMENTS -----
+- it appears that weather does have an effect on win percentage in naturally 
+  cold places.
+- was able to manipulate all new repositories from last week
+
+----- PLAN -----
+- I really want this to work. So I am planning on finishing the project on my 
+  own during the winter break to add to my portfolio
+
+----- ISSUES AND CONCERNS -----
+- used a HUGE amount of time on weather. Wished that I put that time into
+  other stats before touching on that.
